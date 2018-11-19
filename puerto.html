@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="gradient">
+</div>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="keywords" content="maps, cartography"/>
+		<title>Clara Margaret Flood Cartographer</title>
+		
+		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
+		
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/portfolio.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+
+	</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-custom" style="background-color: #306284"> <!-- Creates the navbar -->
+		<div class="container">
+			<div class="navbar-header"> <!-- Creates the navbar header -->
+				
+				<a class="navbar-brand navbar-right"><a href="index.html#portfolio"><navi><i class="material-icons" style="font-size:35px;color:white">arrow_back</i> return to portfolio</navi></a></a> 
+      			</div>
+    		</div> 
+  	</nav> 
+
+	
+
+	
+		<div class="container">
+			<div class ="row">
+				<div class="col-md-12 col-xs-12 text-center section-header">
+					<div class="port-header">
+						<br>Bathymetric Tinting Contour Map<br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-12 text-center">
+					<div class="port">
+						This piece was developed solely to practice realistic terrain representation,
+						 bathymetric tinting and contour mapping.<br><br>
+						This project involved ArcGIS, Adobe Illustrator and Adobe Photoshop. <br><br><br>
+
+						Click for zoomable image: <lo><a href="assets/PuertoRico.png" data-fancybox title="Puerto Rico"><span class="glyphicon glyphicon-zoom-in"></span></a></lo><br><br><br>
+					
+					</div>
+				</div>
+	
+	
+		<br><br><br>
+
+		<div class="container-fluid">
+			<div class="row">
+				
+				<div class="col-xs-12 col-sm-12 col-md-12 text-center">
+					<div class="resume">
+						<img src="assets/PuertoRico.png" alt="Puerto Rico Bathymetry Contour Map" />
+					</div>
+				</div>
+				
+			</div>
+
+				
+				
+		
+<br><br><br>
+			
+				
+			</div>
+		</div>
+	
+
+		<br><br><br>
+
+
+	<!--put your external script links here-->
+	<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.fancybox').fancybox();
+    });
+    $('[data-fancybox]').fancybox({
+	protect: true
+    });
+$('[data-fancybox]').fancybox({
+    afterLoad : function( instance, slide ) {
+        if ( slide.type === 'image' ) {
+            slide.width  = slide.width  * 0.3;
+            slide.height = slide.height * 0.3;
+        }
+    }
+});
+</script>
+
+
+
+</body>
+
+
+</html>
