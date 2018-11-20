@@ -1,7 +1,7 @@
 navi {
 	color: #ffffff;
 	font-size: 20px;
-	font-family: agency fb, corbel, helvetica, sans-serif;
+	font-family: "Yu Mincho";
 }
 
 /***** NAVBAR *****/
@@ -50,7 +50,7 @@ li a:hover {
 
 
 a:link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -189,34 +189,13 @@ img {
   padding-left: 7%;
   padding-right: 7%;
 }
-
-.port {
-  color: #1b1b1b;
-  font-size: 18px;
-  font-family: corbel, helvetica, sans-serif;
-  text-decoration: none;
-  position: center;
-  padding-top: 2%;
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
-.port-header {
-  color: #1b1b1b;
-  font-size: 40px;
-  font-family: agency fb, corbel, helvetica, sans-serif;
-  text-decoration: underline;
-  position: center;
-}
-
-
 	
 html, body {
   min-height: 100%;
   color: #242424;
   width 100%;
   min-height: 100%;
-  background-image: linear-gradient(90deg, #91dcfa 4%, #ffffff 4%, #ffffff 96%, #91dcfa 4%);
+  background-image: linear-gradient(90deg, #91dcfa 4%, #55a6c6 4%, #55a6c6 96%, #91dcfa 4%);
   background-repeat: no-repeat;
   margin: 0px;
 }

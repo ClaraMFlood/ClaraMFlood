@@ -1,7 +1,7 @@
 navi {
 	color: #ffffff;
 	font-size: 20px;
-	font-family: agency fb, corbel, helvetica, sans-serif;
+	font-family: "Yu Mincho";
 }
 
 /***** NAVBAR *****/
@@ -193,7 +193,7 @@ img {
 .port {
   color: #1b1b1b;
   font-size: 18px;
-  font-family: corbel, helvetica, sans-serif;
+  font-family: "Yu Mincho", serif;
   text-decoration: none;
   position: center;
   padding-top: 2%;
@@ -204,7 +204,7 @@ img {
 .port-header {
   color: #1b1b1b;
   font-size: 40px;
-  font-family: agency fb, corbel, helvetica, sans-serif;
+  font-family: "Yu Mincho", serif;
   text-decoration: underline;
   position: center;
 }
