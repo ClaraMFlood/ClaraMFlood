@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="gradient">
+</div>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="keywords" content="maps, cartography"/>
+		<title>Clara Margaret Flood Cartographer</title>
+		
+		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
+		
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/portfolio.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+
+	</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-custom" style="background-color: #306284"> <!-- Creates the navbar -->
+		<div class="container">
+			<div class="navbar-header"> <!-- Creates the navbar header -->
+				
+				<a class="navbar-brand navbar-right"><a href="index.html#portfolio"><navi><i class="material-icons" style="font-size:35px;color:white">arrow_back</i> return to portfolio</navi></a></a> 
+      			</div>
+    		</div> 
+  	</nav> 
+
+	
+
+	
+		<div class="container">
+			<div class ="row">
+				<div class="col-md-12 col-xs-12 text-center section-header">
+					<div class="port-header">
+						<br>Interactive Time-Series Proportional Symbol Map<br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-12 text-center">
+					<div class="port">
+						This piece was developed for an Interactive Cartography and Geovisualization Master's level course. 
+						I was tasked with creating a fully interactive, time-series map incorporating proportional symbols, on a dataset of my choice. This application displays the number of visitors to the most popular, well-visited national parks in the United States from 2010-2017.<br><br>
+						This project involved Leaflet, JavaScript, JQuery and Adobe Illustrator<br><br><br>
+
+                        <a href="/GEOG575/leafletnps.html">Click to launch the full application</a>
+					
+					</div>
+				</div>
+	
+	
+
+	
+
+	<!--put your external script links here-->
+	<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.fancybox').fancybox();
+    });
+    $('[data-fancybox]').fancybox({
+	protect: true
+    });
+$('[data-fancybox]').fancybox({
+    afterLoad : function( instance, slide ) {
+        if ( slide.type === 'image' ) {
+            slide.width  = slide.width  * 0.3;
+            slide.height = slide.height * 0.3;
+        }
+    }
+});
+</script>
+
+
+
+</body>
+
+
+</html>
