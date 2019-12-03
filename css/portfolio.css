@@ -181,6 +181,9 @@ img {
   position: center;
 }
 
+.pdfHolder {
+    height: 80vh;
+}
 
 	
 html, body {
