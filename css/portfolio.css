@@ -185,6 +185,16 @@ img {
     height: 80vh;
 }
 
+.glyphicon {
+    color: #306284;
+    font-size: 20px;
+}
+
+.glyphicon:hover {
+    color: #49c5d2;
+    cursor: pointer;
+    
+}
 
 	
 html, body {
